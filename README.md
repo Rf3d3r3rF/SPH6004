@@ -14,11 +14,5 @@ Because the dataset is heavily imbalanced, models were evaluated using both AURO
 * **Top Performing Model:** Gradient Boosting achieved the highest discrimination with an **AUROC of 0.917** and an **AUPRC of 0.624**.
 * **Clinical Interpretability:** Feature importance analysis revealed that respiratory instability (mean respiratory rate), neurological status (GCS components), and hemodynamic instability (blood pressure metrics) were the dominant predictors of ICU mortality, aligning tightly with established clinical knowledge. 
 
-## Setup and Installation
-1. Clone this repository to your local machine.
-2. Ensure you have the required Python packages installed (e.g., `pandas`, `numpy`, `scikit-learn`, `matplotlib`).
-3. Place the pre-extracted MIMIC-IV dataset CSV file into the `data/` directory.
-4. Run the Jupyter notebooks in sequential order (`01` -> `02` -> `03`).
-
 ## Author
 Fendianto
